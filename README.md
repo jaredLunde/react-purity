@@ -22,7 +22,7 @@ optimization of skipping React.createElement. The default cache size is 16.
 import pure from 'react-purity'
 
 
-const Icon = pure(function Icon ({color, innerRef, ...props}) {
+const Icon = pure(function Icon ({color, innerRef, title, ...props}) {
   const pathStyle = {fill: color || '#000'}
   return (
     <svg
