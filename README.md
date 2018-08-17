@@ -1,4 +1,4 @@
-`react-purity`
+# `react-purity`
 
 Adds memoization to stateless functional components in React. This HOF
 works best with components you consistently use (e.g. icons). It will not work
@@ -55,7 +55,7 @@ console.log(IconA === IconC)
 // false
 ```
 
-## pure(<SFC>, <options>)
+## `pure(<SFC>, <options>)`
 ### options
 - `size {number}`
   - The maximum number of property/element pairs to cache for a given component
