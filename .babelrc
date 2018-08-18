@@ -3,10 +3,7 @@
     "commonjs": {
       "presets": [
         [
-          "@babel/env", {
-            "useBuiltIns": "usage",
-            "loose": true
-          }
+          "@babel/env", {"loose": true}
         ]
       ],
       "plugins": [
@@ -18,11 +15,7 @@
     "es": {
       "presets": [
         [
-          "@babel/env", {
-            "useBuiltIns": "usage",
-            "modules": false,
-            "loose": true
-          }
+          "@babel/env", {"modules": false, "loose": true}
         ]
       ],
       "plugins": [
