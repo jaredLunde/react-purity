@@ -1,7 +1,10 @@
 {
   "name": "react-purity",
-  "version": "1.0.0",
-  "main": "src/index.js",
+  "version": "1.0.1",
+  "main": "commonjs/index.js",
+  "jsnext:main": "es/index.js",
+  "esnext": "es/index.js",
+  "module": "es/index.js",
   "repository": "https://github.com/jaredLunde/react-purity",
   "author": "Jared Lunde",
   "license": "MIT",
