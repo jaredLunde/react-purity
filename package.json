@@ -1,6 +1,6 @@
 {
   "name": "react-purity",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "commonjs/index.js",
   "jsnext:main": "es/index.js",
   "esnext": "es/index.js",
@@ -18,7 +18,7 @@
     "prettier": "^1.14.2"
   },
   "dependencies": {
-    "@babel/runtime-corejs2": "^7.0.0-rc.1",
+    "@babel/runtime": "^7.0.0-rc.1",
     "cdll-memoize": "^0.1.0",
     "empty": "^0.10.1"
   },
