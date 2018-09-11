@@ -1,6 +1,6 @@
 .git
 node_modules
 .DS_Store
-yarn-error.log
+*.log
 es
-commonjs
+cjs
